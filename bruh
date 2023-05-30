@@ -101,7 +101,7 @@ UICorner_6.Parent = PLAYERESP
 
 -- Scripts:
 
-local function NCWRHFF_fake_script() -- LegChestEnable.LocalScript 
+local function YUFZV_fake_script() -- LegChestEnable.LocalScript 
 	local script = Instance.new('LocalScript', LegChestEnable)
 
 	local btn = script.Parent
@@ -131,8 +131,8 @@ local function NCWRHFF_fake_script() -- LegChestEnable.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NCWRHFF_fake_script)()
-local function TPTRE_fake_script() -- WALKSPEED.LocalScript 
+coroutine.wrap(YUFZV_fake_script)()
+local function DUBZ_fake_script() -- WALKSPEED.LocalScript 
 	local script = Instance.new('LocalScript', WALKSPEED)
 
 	local e = script.Parent
@@ -160,8 +160,8 @@ local function TPTRE_fake_script() -- WALKSPEED.LocalScript
 	end)
 	
 end
-coroutine.wrap(TPTRE_fake_script)()
-local function RGQCNH_fake_script() -- INFJUMP.LocalScript 
+coroutine.wrap(DUBZ_fake_script)()
+local function KJWDHN_fake_script() -- INFJUMP.LocalScript 
 	local script = Instance.new('LocalScript', INFJUMP)
 
 	local inf = script.Parent
@@ -189,8 +189,8 @@ local function RGQCNH_fake_script() -- INFJUMP.LocalScript
 	
 	end)
 end
-coroutine.wrap(RGQCNH_fake_script)()
-local function TLHHDQK_fake_script() -- POTATOGRAPHICS.LocalScript 
+coroutine.wrap(KJWDHN_fake_script)()
+local function TRPP_fake_script() -- POTATOGRAPHICS.LocalScript 
 	local script = Instance.new('LocalScript', POTATOGRAPHICS)
 
 	local btn = script.Parent
@@ -236,10 +236,12 @@ local function TLHHDQK_fake_script() -- POTATOGRAPHICS.LocalScript
 		end
 		end)
 end
-coroutine.wrap(TLHHDQK_fake_script)()
-local function SOIJEHX_fake_script() -- PLAYERESP.LocalScript 
+coroutine.wrap(TRPP_fake_script)()
+local function AWJNMDW_fake_script() -- PLAYERESP.LocalScript 
 	local script = Instance.new('LocalScript', PLAYERESP)
 
+	local button123 = script.Parent
+	button123.MouseButton1Click:Connect(function()
 	local ESP = {
 		Enabled = true,
 		Boxes = true,
@@ -621,10 +623,11 @@ local function SOIJEHX_fake_script() -- PLAYERESP.LocalScript
 		end
 	end)
 	
-	return ESP
+		return ESP
+		end)
 end
-coroutine.wrap(SOIJEHX_fake_script)()
-local function AOPG_fake_script() -- Frame.LocalScript 
+coroutine.wrap(AWJNMDW_fake_script)()
+local function OFFSCFU_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	script.Parent.Active = true
@@ -632,4 +635,4 @@ local function AOPG_fake_script() -- Frame.LocalScript
 	
 	
 end
-coroutine.wrap(AOPG_fake_script)()
+coroutine.wrap(OFFSCFU_fake_script)()
